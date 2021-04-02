@@ -1,0 +1,12 @@
+include header
+
+h1 My app
+h2 #{myPugint}
+ul
+  each val, index in myDB
+    li( class="item")
+      img(
+        src=`img/${val['image']}`
+        class='item-img'
+      )
+      p #{val['name']}

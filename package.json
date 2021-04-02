@@ -1,0 +1,27 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "my study in Express.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esvirin/node-express.git"
+  },
+  "author": "esvrin@mail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esvirin/node-express/issues"
+  },
+  "homepage": "https://github.com/esvirin/node-express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mustard-ui": "^1.0.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "pug": "^3.0.2",
+    "sequelize": "^6.6.2"
+  }
+}
